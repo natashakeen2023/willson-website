@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background-image: url(../images/cti.jpg);background-repeat: no-repeat;background-position: center;background-size: 100%;"></body>
+        <td><a href="flavia.html">Home</a></td>
+        <td><a href="about us.html">ABOUT US</a></td>
+        <td><a href="booking_form.html">booking</a></td>
+        <title>booking form</title>
+        <style>
+            h1{
+                font-style: oblique;
+                font-size: xx-large;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        </style>
+       <marquee><h1>BOOK YOUR TICKET NOW</h1></marquee>
+        <form action="#" name="EMAIL" method="post">
+            <p>First Name:<input type="text" name="FN" required autocapitalize="ON"></p>
+            <P>Sir Name:<input type="text" name="SN" required autocapitalize="ON"></P>
+            <P>please enter your email address</P>
+            <p>Email:<input type="text" name="Email" placeholder="wilsonprosper416@gmail.com" id="Email" required></p>
+            <fieldset>
+                <legend>TICKET TYPE</legend>
+                <input type="radio" name="ordinary"> <Label for="ordinary">ORDINARY</Label><br>
+                <input type="radio" name="VIP"<Label for="VIP">VIP</Label><br>
+                <input type="radio" name="VVIP"><Label for="VVIP">VVIP</Label><br>
+                <input type="radio" name="FIRST CLASS"><Label for="FIRST CLASS">FIRST CLASS</Label>
+            </fieldset>
+
+            <fieldset>
+                <legend>PREFERED ROUT</legend>
+                <input type="radio" name="rout" id="ORDINARY">
+                <label for="ordinary"> Entebb,Nairobi,Dubhai</label><br>
+                <input type="radio" name="rout" id="VIP">
+                <label for="VIP">Nairobi,Johannesbag</label><br>
+                <input type="radio" name="rout" id="VVIP">
+                <labe for="VVIP">New york, Los angels</label><br>
+                <input type="radio" name="rout" id="FIRST CLASS">
+                <label for="First class">Londan,Paris</label>
+            </fieldset>
+            <p><input type="file" name="passport" accept="image/jpg/gif"><br></p>
+            <label for="destination" id="destination"></label>
+            <select name="destination" id="destination">
+                <option value="choose your destination">choose your destination</option>
+                <option value="Dubhai">Dubhai</option>
+                <option value="Paris">Paris</option>
+                <option value="New york">New york</option>
+                <option value="Londan">Londan</option>
+                <option value=" Johannesbag"> Johannesbag</option>
+                <option value="Entebbe">Entebbe</option>
+                <p><input type="submit" name="Email" value="submit"></p>
+
+
+            </select>
+        </form>
+    </head>
+</html>
